@@ -32,7 +32,7 @@ class PlaySoundsViewController: UIViewController {
         case slow = 0, fast, high, low, echo, reverb
     }
     
-    // MARK: - Superclass overrife functios
+    // MARK: - Superclass override functions
     override func viewDidLoad() {
         super.viewDidLoad()
         

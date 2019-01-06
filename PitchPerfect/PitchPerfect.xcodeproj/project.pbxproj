@@ -16,6 +16,9 @@
 		51D2DC5221E2B770002DEBF8 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2DC5121E2B770002DEBF8 /* PlaySoundsViewController+Audio.swift */; };
 		51D2DC5521E2B7CC002DEBF8 /* RecordState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2DC5321E2B7CB002DEBF8 /* RecordState.swift */; };
 		51D2DC5621E2B7CC002DEBF8 /* RecordStateMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2DC5421E2B7CC002DEBF8 /* RecordStateMessage.swift */; };
+		51D2DC5821E2BAD8002DEBF8 /* RecordAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2DC5721E2BAD8002DEBF8 /* RecordAlerts.swift */; };
+		51D2DC5A21E2BB38002DEBF8 /* PlayingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2DC5921E2BB38002DEBF8 /* PlayingState.swift */; };
+		51D2DC5C21E2BD74002DEBF8 /* StoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2DC5B21E2BD74002DEBF8 /* StoryboardSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		51D2DC5121E2B770002DEBF8 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		51D2DC5321E2B7CB002DEBF8 /* RecordState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordState.swift; sourceTree = "<group>"; };
 		51D2DC5421E2B7CC002DEBF8 /* RecordStateMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordStateMessage.swift; sourceTree = "<group>"; };
+		51D2DC5721E2BAD8002DEBF8 /* RecordAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordAlerts.swift; sourceTree = "<group>"; };
+		51D2DC5921E2BB38002DEBF8 /* PlayingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingState.swift; sourceTree = "<group>"; };
+		51D2DC5B21E2BD74002DEBF8 /* StoryboardSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,16 +68,19 @@
 		51D2DC3A21E2B481002DEBF8 /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
-				51D2DC3B21E2B481002DEBF8 /* AppDelegate.swift */,
-				51D2DC3D21E2B481002DEBF8 /* RecordSoundsViewController.swift */,
-				51D2DC4221E2B483002DEBF8 /* Assets.xcassets */,
+				51D2DC4721E2B483002DEBF8 /* Info.plist */,
 				51D2DC4D21E2B697002DEBF8 /* Main.storyboard */,
+				51D2DC3B21E2B481002DEBF8 /* AppDelegate.swift */,
+				51D2DC5921E2BB38002DEBF8 /* PlayingState.swift */,
+				51D2DC4F21E2B720002DEBF8 /* PlaySoundsViewController.swift */,
+				51D2DC5121E2B770002DEBF8 /* PlaySoundsViewController+Audio.swift */,
+				51D2DC5721E2BAD8002DEBF8 /* RecordAlerts.swift */,
+				51D2DC3D21E2B481002DEBF8 /* RecordSoundsViewController.swift */,
 				51D2DC5321E2B7CB002DEBF8 /* RecordState.swift */,
 				51D2DC5421E2B7CC002DEBF8 /* RecordStateMessage.swift */,
+				51D2DC4221E2B483002DEBF8 /* Assets.xcassets */,
 				51D2DC4421E2B483002DEBF8 /* LaunchScreen.storyboard */,
-				51D2DC4721E2B483002DEBF8 /* Info.plist */,
-				51D2DC5121E2B770002DEBF8 /* PlaySoundsViewController+Audio.swift */,
-				51D2DC4F21E2B720002DEBF8 /* PlaySoundsViewController.swift */,
+				51D2DC5B21E2BD74002DEBF8 /* StoryboardSegue.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -148,8 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D2DC3E21E2B481002DEBF8 /* RecordSoundsViewController.swift in Sources */,
+				51D2DC5821E2BAD8002DEBF8 /* RecordAlerts.swift in Sources */,
+				51D2DC5A21E2BB38002DEBF8 /* PlayingState.swift in Sources */,
 				51D2DC5221E2B770002DEBF8 /* PlaySoundsViewController+Audio.swift in Sources */,
 				51D2DC5521E2B7CC002DEBF8 /* RecordState.swift in Sources */,
+				51D2DC5C21E2BD74002DEBF8 /* StoryboardSegue.swift in Sources */,
 				51D2DC5021E2B720002DEBF8 /* PlaySoundsViewController.swift in Sources */,
 				51D2DC5621E2B7CC002DEBF8 /* RecordStateMessage.swift in Sources */,
 				51D2DC3C21E2B481002DEBF8 /* AppDelegate.swift in Sources */,
